@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questões Ambientais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Questões Ambientais</h1>
+    </header>
+
+    <main>
+        <section id="faq">
+            <div class="question">
+                <h2>Pergunta 1: Por que é importante reciclar?</h2>
+                <div class="options">
+                    <button onclick="checkAnswer('answer1', 'a')">a) Para reduzir a quantidade de resíduos.</button>
+                    <button onclick="checkAnswer('answer1', 'b')">b) Para aumentar a poluição do ar.</button>
+                    <button onclick="checkAnswer('answer1', 'c')">c) Para aumentar o consumo de energia.</button>
+                </div>
+                <p id="answer1" class="answer">Resposta correta: a) Para reduzir a quantidade de resíduos.</p>
+            </div>
+
+            <div class="question">
+                <h2>Pergunta 2: O que é a mudança climática?</h2>
+                <div class="options">
+                    <button onclick="checkAnswer('answer2', 'a')">a) Mudanças nos padrões de clima da Terra.</button>
+                    <button onclick="checkAnswer('answer2', 'b')">b) Aumento da biodiversidade.</button>
+                    <button onclick="checkAnswer('answer2', 'c')">c) Redução da emissão de gases poluentes.</button>
+                </div>
+                <p id="answer2" class="answer">Resposta correta: a) Mudanças nos padrões de clima da Terra.</p>
+            </div>
+
+            <div class="question">
+                <h2>Pergunta 3: Como podemos reduzir o consumo de água?</h2>
+                <div class="options">
+                    <button onclick="checkAnswer('answer3', 'a')">a) Consertar vazamentos.</button>
+                    <button onclick="checkAnswer('answer3', 'b')">b) Usar mais água em duchas e torneiras.</button>
+                    <button onclick="checkAnswer('answer3', 'c')">c) Ignorar dispositivos economizadores de água.</button>
+                </div>
+                <p id="answer3" class="answer">Resposta correta: a) Consertar vazamentos.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Questões Ambientais</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
